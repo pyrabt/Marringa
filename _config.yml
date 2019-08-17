@@ -1,1 +1,7 @@
 theme: jekyll-theme-slate
+
+# site settings
+title: Will Marringa
+subtitle: "Masters of Software Development Student @ University of Utah"
+url: "https://will-marringa.github.io"
+baseurl: "/"
