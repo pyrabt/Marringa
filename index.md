@@ -8,7 +8,7 @@ After earning my Bachelor's Degree in Biotechnology, I committed 11 months to ge
 
 ### JAVA DNS Resolver
 
-##3 What it does
+## What it does
 This is a local domain name server which fields dig requests, and then supplies answers via local cache results or pulls the answer from Google's DNS (8.8.8.8)
 
 ### Purpose of this project
