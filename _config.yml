@@ -4,3 +4,11 @@ theme: jekyll-theme-slate
 title: [Will Marringa]
 description: [Masters of Software Development Student @ University of Utah]
 
+#Buzzwords
+skills:
+  - C/C++
+  - Python
+  - Java
+  - C#
+  - MySQL
+
