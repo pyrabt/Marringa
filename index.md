@@ -8,7 +8,7 @@ I am currently on my final semester class before I will receive a Masters of Sof
 
 ## Projects
 
-### m(sd)alloc
+## m(sd)alloc
 
 ### What it does
 Just like the C Standard Library function malloc, my program allocates memory in page-sized chunks based on the passed bytes-to-allocate parameter.
@@ -19,10 +19,11 @@ Learn how memory is managed and reserved within C/C++ programs.
 ### The implementation
 Similar to how *std::malloc* operates under the hood, I used the system calls *mmap* and *munmap* to allocate/deallocate the memory. I implemented my own hashtable that store the *void pointer* address of each allocation using a simple hash function. Load factor was routinely calculated to ensure a low likelyhood of collisions when using a linear probing strategy.
 
-[mmap/munmap usage](m-sd-alloc/msdAlloc.cpp)
-[hashtable caching](m-sd-alloc/allocHashtable.cpp)
+[mmap/munmap usage](https://github.com/pyrabt/m-sd-alloc/blob/master/msdAlloc.cpp)
 
-### JAVA DNS Resolver
+[hashtable caching](https://github.com/pyrabt/m-sd-alloc/blob/master/allocHashtable.cpp)
+
+## JAVA DNS Resolver
 
 ### What it does
 This is a local domain name server which fields dig requests, and then supplies answers via local cache results or pulls the answer from Google's DNS (8.8.8.8)
